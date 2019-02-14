@@ -1,0 +1,133 @@
+body, html {
+  height: 100%;
+}
+.view {
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg");
+
+  /* Half height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(99, 94, 94);
+}
+
+.title {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+    height: 50%;
+    padding: 5%;
+    text-align: center;
+  padding-top: 250px;
+}
+
+a {
+    color: #fff; 
+    outline: 0; 
+    text-decoration: none; 
+  }
+
+.icon {
+  color: rgb(161, 161, 161);
+  outline: 0;
+  text-decoration: none;
+  font-size: 50px;
+  text-align: center;
+}
+
+  .click-item a {
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .click {
+    display: flex; 
+    justify-content: center;
+  }
+
+.click-item {
+    transition: all 0.3s ease-in-out;
+    border-radius: 100%;
+    border: solid 2px #fff; 
+    width: 82px; 
+    height: 82px; 
+    margin: 0 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.click-item:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #e2dada;
+  }
+
+ .nav-link:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #e2dada4b;
+    
+ }
+
+ .nav-link {
+     font-size: large;
+ }
+#aboutme, #projects {
+   background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.jpg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+ }
+
+ .photo{
+   width:40%;
+   float: left;
+   height: 250px;
+   margin-top:50px;
+ }
+
+ .portrait { 
+  border: solid 2px #fff; 
+  width: 250px; 
+  height: 250px;
+ }
+
+ .description {
+   width: 60%;
+   float: right;
+   color: gray;
+   text-align: justify;
+   font-size: 20px;
+   height: 250px;
+   margin-top:50px;
+   margin-right:50px;
+ }
+
+ .links {
+   color: gray;
+   font-size: 20px;
+ }
+
+ .project {
+   width: 70%;
+   margin-right: auto;
+   margin-left: auto;
+ }
+ 
